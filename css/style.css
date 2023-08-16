@@ -227,7 +227,9 @@ input {
 
 .navbar-custom {
   background: transparent; }
-
+.navbar-brand {
+  margin-left: 0em;
+}
 a.navbar-brand, a.logo {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #444342 !important;
@@ -245,7 +247,10 @@ li.nav-item .btn-white {
   color: #444342; }
 li.nav-item .active {
   font-weight: bold; }
-
+.logo {
+  width: 15%;
+  height: auto;
+}
 .header {
   background: #fff;
   min-height: 7em;
@@ -260,7 +265,6 @@ li.nav-item .active {
     font-size: 1.05em;
     margin-left: .5em;
     padding: .75em .35em; }
-
 @media screen and (max-width: 420px) {
   .header h1 {
     font-size: 2.5rem; }
