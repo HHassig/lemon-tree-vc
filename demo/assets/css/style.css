@@ -1590,12 +1590,13 @@ section {
   padding-bottom: 2rem;
 }
 .contact .info {
-  width: 100%;
+  width: 80%;
   background: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact .info i {
