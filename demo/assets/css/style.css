@@ -93,7 +93,9 @@ h6 {
   height: 60px;
   animation: animate-preloader 1s linear infinite;
 }
-
+.row {
+  justify-content: space-evenly;
+}
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -157,7 +159,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -281,7 +283,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #124265;
@@ -526,11 +528,13 @@ h6 {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 80px 0px 0px 0px;
   overflow: hidden;
 }
 
@@ -1015,19 +1019,19 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
+  background: #cad7e0;
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #124265;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #124265;
 }
 
 .cta .cta-btn {
@@ -1040,14 +1044,53 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #124265;
+  color: #124265;
 }
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #4e7592;
 }
+
+
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 30rem;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.banner-info {
+  margin: auto;
+  text-align: center;
+}
+.banner-info h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  /* margin-top: 5rem; */
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1546,6 +1589,10 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .contact .info i {
