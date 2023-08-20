@@ -555,6 +555,19 @@ section {
   padding-bottom: 0;
   color: #124265;
 }
+.section-title-contact {
+  text-align: center;
+  /* padding-bottom: 30px; */
+}
+
+.section-title-contact h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-bottom: 20px; */
+  padding-bottom: 0;
+  color: #124265;
+}
 
 .section-title p {
   margin-bottom: 0;
