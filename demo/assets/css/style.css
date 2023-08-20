@@ -1632,7 +1632,9 @@ section {
 .contact .info .phone {
   margin-top: 40px;
 }
-
+.address {
+  margin-bottom: 0.5rem;
+}
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
