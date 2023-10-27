@@ -395,7 +395,12 @@ h6 {
 #hero .animated {
   /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }
-
+.productbot {
+  width: 10em;
+}
+.m2 {
+  width: 3em;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
