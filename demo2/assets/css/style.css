@@ -535,7 +535,9 @@ section {
   filter: none;
   transform: scale(1.1);
 }
-
+.team-pic {
+  border-radius: 1em;
+}
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
